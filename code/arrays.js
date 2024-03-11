@@ -9,7 +9,8 @@ let stations = ["Dundee", "Edinburgh", "North Berwick", "Newcastle", "York", "Le
  * The East Coast Main Line doesn't stop at Peterborough! Add London Kings Cross to the end of the array to complete the line.
  */
 stations.push("London Kings Cross");
-// console.log(stations);
+console.log("Added London Kings Cross");
+console.log(stations);
 
 
 
@@ -18,7 +19,8 @@ stations.push("London Kings Cross");
  * It doesn't go as far as Dundee either, so remove it from the start of the array.
  */
 stations.shift();
-// console.log(stations);
+console.log("Removed 'Dundee'");
+console.log(stations);
 
 
 
@@ -29,7 +31,7 @@ stations.shift();
 
 let stationCount = stations.length;
 
-// console.log("There are " + stationCount + " stations.");
+console.log("There are " + stationCount + " stations.");
 
 
 
@@ -40,7 +42,7 @@ let stationCount = stations.length;
 
 const thirdStation = stations[2];
 
-// console.log("The third station is " + thirdStation);
+console.log("The third station is " + thirdStation);
 
 
 /**
@@ -49,7 +51,8 @@ const thirdStation = stations[2];
  */
 const nbStationIdx = stations.indexOf("North Berwick");
 stations[nbStationIdx] = "Berwick-upon-Tweed";
-// console.log(stations);
+console.log("Replaced 'North Berwick' with 'Berwick-upon-Tweed'");
+console.log(stations);
 
 
 
@@ -59,7 +62,8 @@ stations[nbStationIdx] = "Berwick-upon-Tweed";
  */
 const lStationIdx = stations.indexOf("Leeds");
 stations.splice(lStationIdx, 1);
-// console.log(stations);
+console.log("Removed 'Leeds'");
+console.log(stations);
 
 
 
@@ -69,7 +73,8 @@ stations.splice(lStationIdx, 1);
  */
 const newcastleStationIdx = stations.indexOf("Newcastle");
 stations.splice(newcastleStationIdx + 1, 0, "Darlington");
-// console.log(stations);
+console.log("Added 'Darlington'");
+console.log(stations);
 
 
 
@@ -80,7 +85,7 @@ stations.splice(newcastleStationIdx + 1, 0, "Darlington");
 
 stoppingAtDurham = (stations.indexOf("Durham") !== -1);
 
-// console.log("This train stops at Durham: " + stoppingAtDurham);
+console.log("This train stops at Durham: " + stoppingAtDurham);
 
 
 /**
