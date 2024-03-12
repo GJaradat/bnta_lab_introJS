@@ -90,7 +90,7 @@
 
 // Prediction:
 
-// 'Guess Who is Ashley'
+// 'Guess Who is Ashley' - actually Gail, cause if(){} creates a new scope inside of it
 
 // // GUESS 5 ///////////////////
 
@@ -117,4 +117,4 @@
 
 // Prediction:
 
-// 'Guess Who is Kyle'
+// 'Guess Who is Kyle' - actually Type Error, because guess is a const 
